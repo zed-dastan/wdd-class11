@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.full_site {
+  width: 100%;
+  overflow: hidden;
+  background: skyblue;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  width: 300px;
+  float: left;
+}
+
+.nav_menu {
+  width: 51%;
+  float: right;
+  margin-left: -17px;
+}
+
+.nav_menu ul li {
+  float: left;
+  padding: 20px;
+}
+
+.nav_menu ul {
+  list-style: none;
+}
+
+.nav_menu ul li a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 500;
+  color: #505259;
+}
+
+.nav_menu ul li .active {
+  color: red;
+}
+.nav_menu ul li a:hover {
+  color: red;
+}
+.nav_bg {
+  background: #e9e9e9;
+  display: flex;
+  height: 110px;
+}
+
+/*Nav Ber END*/
+
+.slider_bg {
+  background-image: url(../img/benner.webp);
+  background-size: cover;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.slider_text {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  margin-top: 154px;
+}
+
+.slider_text h2 {
+  color: #2fd1be;
+  font-size: 38px;
+}
+.slider_buttons {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 45px;
+  transition: 0.5s ease;
+}
+.slider_buttons a {
+  color: #2fd1be;
+  font-size: 22px;
+  padding: 15px 34px;
+  background: #ff6168;
+  text-decoration: none;
+  border-radius: 11px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.slider_buttons a:hover {
+  background: #ffffff;
+  color: black;
+  transition: 0.5s ease;
+}
+.services_title h2 {
+  text-align: center;
+  margin-top: 63px !important;
+  font-size: 30px;
+  border-bottom: 2px solid red;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 50px !important;
+}
+
+.service_dec {
+  width: 300px;
+  text-align: center;
+  background: #0c0202;
+  border-radius: 12px;
+  padding: 13px;
+  margin-bottom: 50px;
+  float: left;
+  margin-left: 60px;
+}
+
+.icons {
+  background: red;
+  height: 100px;
+  line-height: 124px;
+  border-radius: 10px;
+}
+
+.icons i {
+  font-size: 50px;
+  color: white;
+}
+
+.service_profile_title h3 {
+  font-size: 22px;
+  font-family: inherit;
+  color: white;
+}
+
+.service_profile_title p {
+  color: #dfdcd6;
+  font-size: 19px;
+  font-family: inherit;
+}
+
+.about_section {
+  margin-bottom: 50px;
+}
+
+.about_profile_pic img {
+  border: 5px solid rgb(56, 56, 56);
+}
+.about_profile_pic {
+  width: 432px;
+  float: left;
+}
+
+.about_dec {
+  width: 712px;
+  float: right;
+}
+
+.about_name h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0c0202;
+}
+.about_name span {
+  font-size: 22px;
+  color: red;
+  font-family: inherit;
+  font-weight: 600;
+}
+.about_name p {
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.blog_post {
+  width: 400px;
+  margin-bottom: 50px;
+  float: left;
+}
+.post_buttons a {
+  padding: 10px 30px;
+  background: red;
+  color: white;
+  font-size: 22px;
+}
+
+.post_buttons {
+  margin-top: 20px;
+}
